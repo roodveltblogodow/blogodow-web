@@ -1,0 +1,53 @@
+.sidbar {
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+
+   .search-voice-icone {
+    height: 24px;
+   }
+
+  .icone-upload {
+    height: 24px;
+  }
+  .icone-youtube {
+    height: 24px;
+  }
+  .icone-notification {
+    height: 24px;
+  }
+  .icone-profil {
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .horizon-image1 {
+    position: relative;
+  }
+
+  .sidbar-box {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .sidbar-box:hover {
+    background-color: rgb(202, 201, 201);
+  }
+
+  .all-sidbar {
+    height: 25px;
+    margin-bottom: 4px;
+  }
+  .sidbar-box div {
+    font-family: roboto, arial;
+    font-size: 10px;
+  }
